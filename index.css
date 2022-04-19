@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg"),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+/* --------------------------NAVBAR------------ */
+.container nav {
+  width: 100%;
+  height: 90px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container nav button {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(254, 236, 37);
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.container nav button:hover {
+  background-color: white;
+  transition: 0.3s;
+  color: black;
+}
+/* -------TACO---------- */
+.container .taco {
+  width: 100%;
+  height: 60%;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .taco .left {
+  width: 70%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .taco .left .img_box {
+  width: 90%;
+  height: 90%;
+}
+.container .taco .left .img_box img {
+  width: 100%;
+  height: 100%;
+}
+.container .taco .right {
+  width: 30%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .taco .right .top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .taco .right .top .box1 {
+  width: 90%;
+  height: 80%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .taco .right .top .box1 h1 {
+  font-weight: 300;
+  font-size: 50px;
+}
+.container .taco .right .bottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .taco .right .bottom .box2 {
+  width: 90%;
+  height: 80%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .taco .right .bottom .box2 h1 {
+  font-weight: 300;
+  font-size: 50px;
+}
+/* --------------middle--------------- */
+.container .middle {
+  width: 100%;
+  height: 760px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .middle .top {
+  width: 93%;
+  height: 40%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .middle .top .box {
+  width: 20%;
+  height: 80%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .middle .top .box .items {
+  width: 89%;
+  height: 70%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .middle .top .box .items span {
+  font-size: 50px;
+}
+.container .middle .top .box .items p {
+  color: rgb(68, 67, 67);
+  text-align: center;
+}
+.container .middle .bottom {
+  width: 93%;
+  height: 70%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .middle .bottom .pic {
+  padding: 50px;
+}
+.container .middle .bottom .txt h2 {
+  font-weight: 800;
+}
+.container .middle .bottom .txt p {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.container .middle .bottom .txt button {
+  width: 130px;
+  height: 35px;
+  background-color: #ffc600;
+  border: none;
+  margin: 15px 0px;
+}
+/*--------------- INSTANT --------------*/
+
+.container .instant {
+  width: 100%;
+  height: 70%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .instant .items {
+  width: 93%;
+  height: 100%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+}
+.container .instant .items .images{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .instant .items .images img{
+  margin: 7px;
+}
